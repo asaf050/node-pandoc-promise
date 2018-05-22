@@ -163,10 +163,12 @@ var pandoc = require('node-pandoc-promise'),
 await pandoc(src, args);
 ```
 
-![Wokavagor](https://i.ytimg.com/vi/aDROVYwZ7IU/maxresdefault.jpg)
-> # ...it can go sideways and slantways and longways and backways and squareways and frontways and any other ways that you can think of.
 
 ## License
 
 Copyright &copy; Eric Shinn  
 Licensed under the MIT License
+
+
+
+This package is inspired by `node-pandoc` by `eshinn`
