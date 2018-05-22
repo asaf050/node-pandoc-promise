@@ -1,0 +1,25 @@
+{
+  "name": "node-pandoc-promise",
+  "version": "0.0.1",
+  "description": "Interact with Pandoc from NodeJS. *Requires Pandoc to be installed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asaf050/node-pandoc-promise.git"
+  },
+  "keywords": [
+    "pandoc",
+    "node",
+    "docx",
+    "markdown"
+  ],
+  "author": "Asaf Cohen <asafc@sgc.co.il>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asaf050/node-pandoc-promise.git"
+  },
+  "homepage": "https://github.com/asaf050/node-pandoc-promise.git#readme"
+}
