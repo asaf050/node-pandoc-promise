@@ -1,6 +1,6 @@
 # node-pandoc-promise-promise [![npm version](https://badge.fury.io/js/node-pandoc-promise.svg)](https://badge.fury.io/js/node-pandoc-promise) [![SugarHai](https://img.shields.io/badge/farts-sprinkles-E482B5.svg)](http://www.sugarhai.com/images/sprinklepoo-gif.gif)
 Run Pandoc from NodeJS. Pandoc installation is required.
-
+*This package is inspired by `node-pandoc` by `eshinn`
 ## Install
 
 ```sh
@@ -57,7 +57,7 @@ Converting a word.docx file to a markdown.md
 // In EcmaScript 5...
 
 var nodePandoc = require('node-pandoc-promise');
-var src, args, callback;
+var src, args;
 
 src = './word.docx';
 
@@ -166,9 +166,7 @@ await pandoc(src, args);
 
 ## License
 
-Copyright &copy; Eric Shinn  
+Copyright &copy; Asaf Cohen  
 Licensed under the MIT License
 
 
-
-This package is inspired by `node-pandoc` by `eshinn`
