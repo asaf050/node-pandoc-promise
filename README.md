@@ -33,7 +33,7 @@ node-pandoc-promise is simply a bridge between the Pandoc CLI (command-line inte
 
 ## Usage
 
-**pandoc ( _src_ _args_ [_options_] )**
+**pandoc ( _src_ _args_ [_options_], pandocPath )**
 
 ### Parameters
 
@@ -42,6 +42,9 @@ node-pandoc-promise is simply a bridge between the Pandoc CLI (command-line inte
 
 #### args
 > The same list of arguments that pandoc accepts on the command line. Arguments are accepted as either a full String or as an Array.
+
+#### pandocPath
+> The pandoc binary path, will use "pandoc" as default.
 
 #### options
 > The options parameter accepts and passes along a Node Child_Process.Spawn object and is completely optional. View [a _complete_ list of Pandoc options on the Pandoc website](http://pandoc.org/README.html#options) or pull it from the command-line by typing:  
