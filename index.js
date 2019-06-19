@@ -1,7 +1,7 @@
 var stat = require('fs').stat;
 var spawn = require('child_process').spawn;
 
-module.exports = function (pandocPath) {
+module.exports = function (source, options, pandocPath) {
   if (typeof pandocPath === 'undefined') {
     pandocPath = 'pandoc'
   }
