@@ -5,10 +5,10 @@ Run Pandoc from NodeJS. Pandoc installation is required.
 
 ```sh
 # If using as a dependancy in your module
-npm install node-pandoc-promise-promise --save
+npm install node-pandoc-promise --save
 
 # ...or for use in your project
-npm install node-pandoc-promise-promise --save-dev
+npm install node-pandoc-promise --save-dev
 ```
 *Prior to using node-pandoc-promise, you must [install Pandoc](http://pandoc.org/installing.html) by [John MacFarlane](http://johnmacfarlane.net/).*
 
