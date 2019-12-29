@@ -7,15 +7,15 @@ module.exports = function (src, options = [], pandocPath) {
   }
   return new Promise((resolve, reject) => {
 
-    var pdSpawn;
-    var result = "";
-    var isURL;
+    let pdSpawn;
+    let result = "";
+    let isURL;
 
     // Event Handlers
-    var onStdOutData;
-    var onStdOutEnd;
-    var onStdErrData;
-    var onStatCheck;
+    let onStdOutData;
+    let onStdOutEnd;
+    let onStdErrData;
+    let onStatCheck;
 
     isURL = function (src) {
       return /^(https?|ftp):\/\//i.test(src);
@@ -26,7 +26,7 @@ module.exports = function (src, options = [], pandocPath) {
     };
 
     onStdOutEnd = function () {
-      resolve(null, result || true);
+      resolve(result);
     };
 
     onStdErrData = function (err) {
