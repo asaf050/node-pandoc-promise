@@ -1,6 +1,6 @@
 {
   "name": "node-pandoc-promise",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Interact with Pandoc from NodeJS. *Requires Pandoc to be installed.",
   "main": "index.js",
   "scripts": {
