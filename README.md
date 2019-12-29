@@ -1,4 +1,4 @@
-# node-pandoc-promise-promise [![npm version](https://badge.fury.io/js/node-pandoc-promise.svg)](https://badge.fury.io/js/node-pandoc-promise) [![SugarHai](https://img.shields.io/badge/farts-sprinkles-E482B5.svg)](http://www.sugarhai.com/images/sprinklepoo-gif.gif)
+# node-pandoc-promise [![npm version](https://badge.fury.io/js/node-pandoc-promise.svg)](https://badge.fury.io/js/node-pandoc-promise) [![SugarHai](https://img.shields.io/badge/farts-sprinkles-E482B5.svg)](http://www.sugarhai.com/images/sprinklepoo-gif.gif)
 
 Run Pandoc from NodeJS. Pandoc installation is required.
 
